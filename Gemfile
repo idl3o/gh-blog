@@ -10,6 +10,7 @@ group :jekyll_plugins do
   gem "jekyll-redirect-from", "~> 0.16.0"
   gem "jekyll-titles-from-headings", "~> 0.5.3"
   gem "jekyll-include-cache", "~> 0.2.1"
+  gem 'github-pages'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -24,3 +25,13 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # Lock Jekyll to v4.2 (GitHub Pages uses Jekyll 3.9, but we can build locally and deploy)
 gem "webrick", "~> 1.7"
+
+ruby -v
+gem -v
+
+echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc
+# Or for bash: echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
+
+gem update --system
+gem install bundler
+bundle update

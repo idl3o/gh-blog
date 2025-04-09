@@ -1,10 +1,10 @@
 # Project RED X - Master Configuration File
 
 # Site settings
-title: Web3 Crypto Streaming Service
-description: A decentralized streaming platform that returns control and revenue to creators
-baseurl: "/gh-pages" # the subpath of your site, e.g. /blog
-url: "https://idl3o.github.io" # the base hostname & protocol
+title: My GitHub Pages Site
+description: My awesome GitHub Pages website
+baseurl: ""
+url: ""
 author: Project RED X Team
 email: contact@example.com
 lang: en-US

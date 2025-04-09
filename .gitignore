@@ -75,6 +75,7 @@ dist/
 build/
 tmp/
 temp/
+Gemfile.lock
 /dist
 /build
 .cache/
